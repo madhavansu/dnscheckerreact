@@ -1,0 +1,34 @@
+.dnsul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dnsul li:not(:last-child){
+    border-bottom: 1px solid #008CBA;
+    padding: 5px 0;
+}
+
+.title{
+    margin-bottom: 5px;
+}
+
+.contentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    color: gray;
+}
+
+.ipAddress {
+    color: blue;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.statusIcon {
+    padding-right: 10px;
+}
+
